@@ -1,0 +1,23 @@
+        <?php
+            
+         $code = array("html","css","bootstarp","javascript","php");
+            
+            if(isset($_POST['username'])){
+                $text = $_POST['username'];
+                
+                if(in_array($text,$code)){
+                    echo "$text is Exist";
+                } else{
+                    echo "$text is not Exist!";
+                }
+            }
+
+//           print("<pre>");     
+//           print_r ($code);
+//           print("</pre>");
+//            
+         ?>
+            <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
+            <input type="text" name="username">
+                <input type="submit" value="submit">
+            </form>

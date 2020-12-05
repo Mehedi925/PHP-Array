@@ -1,0 +1,16 @@
+    <?php
+            
+         $color = array(
+             "a"=>"blue",
+             "b"=>"white",
+             "c"=>"green",
+             "d"=>"yellow"
+         );
+            
+           array_shift($color);
+            
+            print("<pre>");     
+            print_r ($color);
+            print("</pre>");
+         ?>
+            

@@ -1,0 +1,10 @@
+          <?php
+             
+            $age = array("Mehedi"=>"22","Hasan"=>"24","Nebir"=>"23","Salekur"=>"21");
+
+            foreach($age as $name => $ages){
+                echo "Name is ".$name. " and his Age is ".$ages;
+                echo "<br>";
+            }
+ 
+            ?>

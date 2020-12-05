@@ -1,0 +1,16 @@
+<?php
+          $car = array(
+              "BMW" => 22,
+              "Volvo" => 21,
+              "Valvo" => 21,
+              "Tayota" => 20,
+              "Audi" => 23,
+              "GTx" => 24
+          );
+           $x =array_change_key_case($car, CASE_UPPER);
+           $y = array_change_key_case($car, CASE_LOWER);
+           print("<pre>");
+         print_r ($x);
+         print_r ($y);
+         print("</pre>");
+        ?>

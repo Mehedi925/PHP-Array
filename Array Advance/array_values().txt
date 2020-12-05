@@ -1,0 +1,17 @@
+     <?php
+            
+         $num = array(
+             "a"=>"green",
+             "b"=>"blue",
+             "c"=>"white",
+             "d"=>"white",
+             "e"=>"white",
+             "f"=>"red"
+         );
+            $result = array_values($num);
+            
+          
+            print("<pre>");     
+            print_r ($result);
+            print("</pre>");
+         ?>

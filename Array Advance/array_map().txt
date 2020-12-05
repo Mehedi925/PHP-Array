@@ -1,0 +1,23 @@
+     <?php
+            
+//            function myFunction($value){
+//                return $value + $value;
+//            }
+//            $arr = array(1,2,3,4,5);
+//            $differ = array_map("myFunction",$arr);
+            
+            function wordFunction($value){
+                $word = strtoupper($value);
+                return $word;
+            }
+            $arr = array(
+                "First_name"=>"mehedi",
+                "Last_name"=>"hasan"
+            );
+            $differ = array_map("wordFunction",$arr);
+            
+            
+            print("<pre>");
+            print_r ($differ);
+            print("</pre>");
+         ?>

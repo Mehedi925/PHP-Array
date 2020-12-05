@@ -1,0 +1,11 @@
+<?php
+            
+         $num = array(12,4,5,6,7,8);
+            
+           $result = array_sum($num);
+            echo $result;
+            
+//            print("<pre>");     
+//            print_r ($result);
+//            print("</pre>");
+         ?>

@@ -1,0 +1,28 @@
+<?php
+
+            $car_color = array(
+                "a" => "blue",
+                "b" => "White",
+                "f" => "red",
+                "d" => "gray",
+                "e" => "yellow"
+            );
+            $bike_color = array(
+                "a" => "blue",
+                "b" => "White",
+                "c" => "red",
+                "e" => "yellow"
+            );
+            $bus_color = array(
+                "a" => "blue",
+                "b" => "purple",
+                "e" => "yellow"
+            );
+
+            $differ = array_diff_assoc($car_color,$bike_color,$bus_color);
+
+
+            print("<pre>");
+            print_r ($differ);
+            print("</pre>");
+            ?>

@@ -1,0 +1,24 @@
+     <?php
+            
+//           $first_array = array(1,2,3,4,5);
+//           $second_array = array(1,2,3,4,5);
+//            $result = array_merge($first_array,$second_array);
+            $color_one = array(
+                "a"=>"red",
+                "b"=>"white",
+                "c"=>"green",
+                "d"=>"blue"
+            );
+            $color_two = array(
+                "d"=>"black",
+                "f"=>"yellow",
+                "g"=>"gray"
+            );
+            $result = array_merge($color_one,$color_two);
+            
+            
+            print("<pre>");
+            print_r ($result);
+            print("</pre>");
+         ?>
+            

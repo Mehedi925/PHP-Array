@@ -1,0 +1,21 @@
+ <?php
+            function myFunction($value,$key ){
+                echo "color key is " .$key." and color name is " .$value ."<br>";
+            }
+            
+         $num = array(
+             "a"=>"green",
+             "b"=>"blue",
+             "c"=>"white",
+             "d"=>"white",
+             "e"=>"white",
+             "f"=>"red"
+         );
+            array_walk($num,"myFunction");
+           
+            
+          
+//            print("<pre>");     
+//            print_r ($result);
+//            print("</pre>");
+         ?>

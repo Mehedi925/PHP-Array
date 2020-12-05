@@ -1,0 +1,14 @@
+ <?php
+            
+         $code = array("html","css","bootstarp","javascript","php");
+
+           print("<pre>");     
+           print_r ($code);
+           print("</pre>");
+            
+            echo "Current value => ".current($code)."<br>";
+            echo "Next value => ".next($code)."<br>";
+            echo "Current value => ".current($code)."<br>";
+            echo "Previous value => ".prev($code)."<br>";
+            echo "End value => ".end($code)."<br>";
+         ?>

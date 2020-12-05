@@ -1,0 +1,10 @@
+       
+       <?php
+          $car = array("BMW","Volvo","Tayota","Audi");
+          $price = array(23,44,32,11);
+
+          $combaine = array_combine($car,$price); //array_combine(key,value)
+           print("<pre>");
+           print_r ($combaine);
+           print("</pre>");
+        ?>

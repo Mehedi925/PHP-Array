@@ -1,0 +1,11 @@
+   <?php
+        
+            $color_one = array("red","blue","white");
+            $result= array_pad( $color_one, 10,"gray");
+            $result= array_pad( $color_one, -10,"gray");
+
+            
+            print("<pre>");
+            print_r ($result);
+            print("</pre>");
+         ?>

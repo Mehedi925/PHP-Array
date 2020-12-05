@@ -1,0 +1,16 @@
+<?php
+        
+            $color_one = array("red","blue","white");
+            $color_two = array( "black", "yellow","gray");
+//            array_multisort($color_one,$color_two);
+            array_multisort($color_two,SORT_ASC);
+            
+            
+//            print("<pre>");
+//            print_r ($color_one);
+//            print("</pre>");
+            
+             print("<pre>");
+            print_r ($color_two);
+            print("</pre>");
+         ?>

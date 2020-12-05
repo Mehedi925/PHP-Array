@@ -1,0 +1,34 @@
+   <?php
+
+        //  $num = array(13,243,94,5,36,17,48,49,10);
+        //  $z = sort($num);
+        //  echo $x = count($num)."<br>";
+        //  for($i=0; $i<$x; $i++){
+        //      echo $num[$i]."<br>";
+        //  } 
+
+        // $name = array("Mehedi"=>"21","Hasan"=>"22","Akbor"=>"11","Nebir"=>"20","Salekur"=>"10");
+        // ksort($name);
+
+        // echo $count = count($name)."<br>";
+        // foreach($name as $myName => $age){
+        //     echo $myName." Age is ". $age."<br>";
+        // }
+
+        $student = array(
+            array("mamun",20,"CSE",2016),
+            array("hridoy",22,"CSE",2015),
+            array("hasan",32,"EEE",2015),
+            array("nebir",23,"CSE",2015),
+            array("alamin",20,"CSE",2015),
+            array("parvez",19,"CSE",2016)
+        );
+         echo $student[2][2];
+
+         for($row=0; $row<6; $row++){
+             echo "<ul>";
+             for($col=0; $col<4;$col++){
+                 echo "<li>". $student[$row][$col]."</li>";
+             }
+             echo "</ul>";
+         }

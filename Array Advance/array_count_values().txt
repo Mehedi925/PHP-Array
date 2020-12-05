@@ -1,0 +1,9 @@
+  <?php
+          $car = array("BMW","Volvo","Volvo","Volvo","Tayota","Tayota","Tayota","Audi","Audi","Audi","Audi");
+          $price = array(23,44,32,44,32,44,32,44,32,11,32,11,32,11,32,11,32,11);
+
+          $count = array_count_values($car);
+           print("<pre>");
+           print_r ($count);
+           print("</pre>");
+        ?>

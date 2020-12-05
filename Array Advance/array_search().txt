@@ -1,0 +1,35 @@
+ <?php
+         date_default_timezone_set("Asia/Dhaka");
+        echo "Bangladesh Time zone ".date("h:i:sa");
+        ?>
+        </h4>
+        <div class="main">
+        <?php
+            
+         $color = array(
+             "a"=>"a",
+             "b"=>"white",
+             "c"=>"green",
+             "d"=>"yellow"
+         );
+            if(isset($_POST['text'])){
+                global $value;
+                $value = $_POST['text'];
+                $result = array_search($value,$color);
+                if($value == $result){
+                    echo "You have searched ".$value." Search result is ".$result;
+                } else{
+                    echo "Search is not found!";
+                }
+            }
+//            $result = array_reverse($color);           
+//            print("<pre>");     
+//            print_r ($result);
+//            print("</pre>");
+         ?>
+            <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                <input type="text" name="text" value="<?php global $value;  echo $value;?>" >
+                <input type="submit" value="submit">
+            </form>
+                    
+        </div>

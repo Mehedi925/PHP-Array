@@ -1,0 +1,13 @@
+   <?php
+            
+            $name = "Mehedi";
+            $dept = "CSE";
+            $id = "161-15-925";
+            $batch = "43rd";
+            
+            $result = compact("name","dept","id","batch");
+
+           print("<pre>");     
+           print_r ($result);
+           print("</pre>");
+         ?>

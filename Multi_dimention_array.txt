@@ -1,0 +1,18 @@
+  <?php
+          $cars = array(
+              array("bmw",20,"Awesome"),
+              array("Audi",22,"Beautiful"),
+              array("Honda",18,"good"),
+              array("Ferrary",22,"Excelent"),
+              array("Volvo",20,"Very Good")
+          );
+
+          for($row=0; $row<5; $row++){
+            echo "<p>Row Number $row</p>";
+             echo "<ul>";
+            for($col=0; $col<3; $col++){
+                echo "<li>"  .$cars[$row][$col]."</li>";
+            }
+            echo "</ul>";
+          }
+          ?>

@@ -1,0 +1,30 @@
+                  ***If keys and values both are simeler on every Array ,then its print***
+
+           <?php
+
+                $car_color = array(
+                    "a" => "blue",
+                    "b" => "White",
+                    "c" => "red",
+                    "d" => "gray",
+                    "h" => "yellow"
+                );
+                $bike_color = array(
+                    "r" => "blue",
+                    "b" => "White",
+                    "c" => "red",
+                    "e" => "yellow"
+                );
+//                $bus_color = array(
+//                    "a" => "blue",
+//                    "b" => "purple",
+//                    "e" => "yellow"
+//                );
+
+                $differ = array_intersect_assoc($car_color,$bike_color);
+
+
+                print("<pre>");
+                print_r ($differ);
+                print("</pre>");
+             ?>

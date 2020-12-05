@@ -1,0 +1,18 @@
+   <?php
+            //   $name = array("Mehedi","Hasan","Nebir","Salekur");
+            //   $count = count($name);
+            //   sort($name);    (***Assending***)
+                 ksort($name)     (***Desending or Reverce***)
+            //   for($i=0; $i<$count; $i++){
+            //       echo $name[$i];
+            //       echo "<br>";
+            //   }
+
+            $name = array("Mehedi"=>"20","Nebir"=>"22","Hasan"=>"24","salekur"=>"21");
+            asort($name); (value sorting)
+            ksort($name); (key sorting)
+            foreach($name as $key => $value){
+                echo "Name is ".$key. " Age is ".$value;
+                echo "<br>";
+            }
+          ?>

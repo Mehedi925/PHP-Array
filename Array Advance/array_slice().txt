@@ -1,0 +1,10 @@
+   <?php
+            
+         $color = array("blue","white","green","yellow" );
+            
+           $result = array_slice($color,-3,1);
+            
+            print("<pre>");     
+            print_r ($result);
+            print("</pre>");
+         ?>

@@ -1,0 +1,32 @@
+   
+
+ <?php
+             
+//         $num = array(
+//             "a"=>"green",
+//             "b"=>"blue",
+//             "c"=>"white",
+//             "d"=>"white",
+//             "e"=>"white",
+//             "f"=>"red"
+//         );
+         $num = array(
+             "a"=>"22",
+             "b"=>"12",
+             "c"=>"45",
+             "d"=>"15",
+             "e"=>"66",
+             "f"=>"11"
+         );
+            asort($num); //***Desending order sorting*** asort Assending order sorting***(only values sorting)
+            foreach($num as $number=>$age){
+                echo "key is : ".$number."value is: ".$age."<br>";
+            }
+        
+           
+            
+          
+//            print("<pre>");     
+//            print_r ($result);
+//            print("</pre>");
+         ?>

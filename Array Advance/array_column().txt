@@ -1,0 +1,26 @@
+     <?php
+
+
+          $car = array(
+              array(
+                  "id" => "100",
+                  "First_Name" => "Mehedi",
+                  "Last_Name" => "Hasan"
+              ),
+              array(
+                "id" => "101",
+                "First_Name" => "Nebir",
+                "Last_Name" => "Mahamud"
+            ),
+            array(
+                "id" => "102",
+                "First_Name" => "Salekur",
+                "Last_Name" => "Rahman"
+            )
+          );
+
+          $x = array_column($car,"First_Name","id");
+          print("<pre>");
+         print_r ($x);
+         print("</pre>");
+        ?>

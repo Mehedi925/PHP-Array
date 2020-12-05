@@ -1,0 +1,12 @@
+     <?php
+        
+            $color_one = array("red","blue","white");
+           
+//            array_pop($color_one);
+            array_push($color_one,"black","yellow");
+
+            
+            print("<pre>");
+            print_r ($color_one);
+            print("</pre>");
+         ?>
